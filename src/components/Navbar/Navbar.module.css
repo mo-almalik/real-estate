@@ -1,0 +1,45 @@
+.Navbar{
+    padding: 16px 0px;
+   
+}
+.Navbar .active , .navLink:hover{
+    color:var(--main-color);
+    border-radius:10px ;
+    padding: 16px 38px;
+}
+.logo{
+    color: var(--main-color);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navLink{
+    color: var(--nav-link-color);
+    padding: 16px 38px;
+  
+}
+.contactLink{
+    color: var(--nav-link-color) ;
+    width: 150px;
+    text-align: center ;
+    padding: 16px  ;
+    border-radius:10px  ;
+    transition: all 0.2s ease ;
+    
+}
+.contactLinkActive{
+    color: var(--white) ;
+    background-color: var(--main-color);
+    width: 150px;
+    text-align: center ;
+    padding: 16px  ;
+    border-radius:10px  ;
+    transition: all 0.2s ease ;
+}
+.contactLink:hover , .contactLinkActive:hover{
+    background-color: var(--nav-bg);
+    color: var(--main-color);
+    width: 150px;
+    text-align: center;
+    padding: 16px ;
+    border-radius:10px ;
+}

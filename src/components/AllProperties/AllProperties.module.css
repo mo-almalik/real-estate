@@ -1,0 +1,104 @@
+.AllProperties .data{
+    color: var(--dec-color);
+    text-align: start;
+ }
+ 
+ 
+ .sliderImg{
+    height: 350px;
+    object-fit: cover; 
+    border-radius: 10px;
+    width: 360px;
+
+ 
+ }
+ .title{
+    margin: 0px 0px;
+    color: var(--black);
+ }
+ .description{
+    color: var(--dec-color);
+ }
+ .agency{
+   object-fit: contain;
+   width: 30px !important;
+   border-radius: 50%;
+   margin-top: 5px;
+   height: 30px;
+ }
+ .rentFrequency{
+   position: absolute;
+   background: var(--main-color);
+   padding: 5px 10px;
+   border-radius: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   color: #ffff;
+   text-transform: capitalize;
+ }
+
+
+ .header{
+   height: 400px;
+   background: url('../../Assets/images/cat.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .btnMain{
+   background-color:transparent;
+   padding: 16px 25px;
+   border: 1px solid  var(--main-color);
+   border-radius: 10px;
+   color: var(--main-color);
+   margin-top: 10px;
+   outline: none;
+   width: 100%;
+}
+
+
+.btnMains{
+   background-color:var(--main-color);;
+   padding: 16px 25px;
+   border: 1px solid  var(--white);
+   border-radius: 10px;
+   color: var(--white);
+   margin-top: 10px;
+   outline: none;
+   width: 100%;
+}
+
+
+
+@media (max-width:320px)  { .functional{ flex-direction: column;} .flexMobile{width: 100% !important;}  .selectOption{width: 100% !important;} .header{height: 90vh;}}
+@media (max-width:481px)  {.functional{ flex-direction: column;} .flexMobile{width: 100% !important;} .selectOption{width: 100% !important;} .header{height: 90vh;} /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (max-width:641px)  { .functional{ flex-direction: column;} .flexMobile{width: 100% !important;} .selectOption{width: 100% !important;} .header{height: 90vh;} /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
+
+
+
+/* YearOrMonth selection */
+.postion{
+   position: absolute;
+   top: 100%;
+   z-index: 100;
+
+}
+
+.selectOption{
+   list-style: none;
+   margin: auto;
+   padding: 16px 25px;
+   cursor: pointer;
+   width: fit-content;
+   border-radius: 10px;
+   font-size: 13px;
+}
+.selectOption:hover{
+   background-color: var(--footer-bg);
+   color: var(--white);
+}

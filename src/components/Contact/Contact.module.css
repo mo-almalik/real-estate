@@ -1,0 +1,24 @@
+.Contact {}
+.contactHeader{
+    background-color: #121f3eaa;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.contactinfo{
+    position: absolute;
+    bottom: -5%;
+}
+.contactHeader button{
+    background-color: var(--main-color);
+    text-align: center;
+   
+    border-radius:10px ;
+    transition: all 0.2s ease;
+    border: 0;
+    color: var(--white);
+}

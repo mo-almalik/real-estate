@@ -1,0 +1,40 @@
+.header{
+    height: 300px;
+    background-color: #F4F4F4;
+}
+.info{
+   position: absolute;
+   top: 50%;
+   text-align: inherit;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   margin: 0px 10px;
+}
+.Agencies .data{
+    color: var(--dec-color);
+    text-align: start;
+ }
+ 
+ 
+ .sliderImg{
+    height: 350px;
+    object-fit: cover; 
+    border-radius: 10px;
+    width: 360px;
+
+ 
+ }
+ .title{
+    margin: 0px 0px;
+    color: var(--black);
+ }
+ .description{
+    color: var(--dec-color);
+ }
+ .agency{
+   object-fit: contain;
+   width: 30px;
+   border-radius: 50%;
+   margin-top: 5px;
+   height: 30px;
+ }

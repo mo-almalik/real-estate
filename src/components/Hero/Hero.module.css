@@ -1,0 +1,19 @@
+.Hero {
+    height:500px;
+    background: url('../../Assets/images/Hero.jpeg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.btnMain{
+    background-color: var(--main-color);
+    padding: 16px 25px;
+    border: 0px solid;
+    border-radius: 10px;
+    color: var(--white);
+    margin-top: 10px;
+}
+.Hero h1{
+    color: var(--main-color);
+}

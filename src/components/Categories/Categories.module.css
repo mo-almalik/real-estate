@@ -1,0 +1,39 @@
+
+
+.CategoriesBox{
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.03);
+    }
+    background-image:linear-gradient( #3453d159 ,#3453d184 ),url('../../Assets/images/cat.jpg');
+
+}
+.office{
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.03);
+    }
+    background-image:linear-gradient( #3453d159 ,#3453d184 ),url('../../Assets/images/office.jpg');
+}
+.villa{
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.03);
+    }
+    background-image:linear-gradient( #3453d159 ,#3453d184 ),url('../../Assets/images/villa.jpg');
+}
+.CategoriesContent{
+    position: absolute;
+    top: 45%;
+    padding: 0px 40px;
+    color: var(--white);
+
+}
+
+
+@media (min-width:320px)  { .CategoriesBox , .office ,.villa{margin: 10px 0;} }
+@media (min-width:481px)  {.CategoriesBox , .office ,.villa{margin: 10px 0;} /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { .CategoriesBox , .office ,.villa{margin: 10px 0;} /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

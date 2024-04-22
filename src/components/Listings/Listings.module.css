@@ -1,0 +1,20 @@
+.Listings .data{
+   color: var(--dec-color);
+   text-align: start;
+}
+
+
+.sliderImg{
+   height: 350px;
+   object-fit: cover; 
+   border-radius: 10px;
+   width: 360px;
+
+}
+.title{
+   margin: 0px 0;
+   color: var(--black);
+}
+.description{
+   color: var(--dec-color);
+}
